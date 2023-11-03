@@ -23,7 +23,7 @@ class FormularioSelect extends Component {
     console.log("propiedad: " + this.state.propiedad);
     console.log("ubicación: " + this.state.ubicacion);
     console.log("metros: " + this.state.inputNumber);
-    // Maneja los datos del formulario aquí
+    
   }
 
 

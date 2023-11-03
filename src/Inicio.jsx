@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import FormularioSelect from './FormularioSelect';
 import './style.css';
 import Nav from "./Nav";
+import Propiedad from "./Propiedad";
+import Ubicacion from "./Ubicacion";
+import Metros from "./Metros";
 
 function Inicio() {
   return (
@@ -13,6 +16,13 @@ function Inicio() {
       <FormularioSelect />
       <p className="parrafo">Este es un párrafo para mostrar la cotización</p>
     </div>
+    <div>
+    <Propiedad/>
+    </div>
+    <div>
+    <Ubicacion/>
+    </div>
+    <Metros/>
     </>
   );
 }
