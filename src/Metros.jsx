@@ -12,6 +12,8 @@ function Metros(props){
             onChange={props.onChange}
             className="input"
             required
+            min={50}
+            max={500}
           />
       </div> 
     
