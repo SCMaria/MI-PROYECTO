@@ -1,15 +1,21 @@
 import { Link } from "react-router-dom";
+import './nav.css'
 
 function Nav(){
     return(
         <nav>
             <ul>
                 <li>
-                <Link to="/">Inicio</Link>
+                <button type="submit">
+                <Link to="/" className="nav">Inicio</Link>
+                </button>
                 </li>
                 <li>
-                <Link to="/historial">Historial</Link>
+                <button>
+                <Link to="/historial" className="nav">Historial</Link>
+                </button>   
                 </li>
+               
             </ul>
         </nav>
     )

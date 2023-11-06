@@ -1,91 +1,95 @@
 .title {
-    text-align: center;
-    line-height: 1.5;
-    color: #044727;
-    margin-top: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #044727;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(221, 240, 235);
+}
+
+.label {
+  font-weight: bold;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  
+
+}
+
+.input{
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+}
+
+.boton {
+  width: 100%;
+  padding: 10px;
+  background-color: #00aaff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 
 
-.formulario {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  .label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .select{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-  }
-  .input{
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    
-  }
-  
-  .select {
-    background-color: #fff;
-  }
-  
-  .input {
-    background-color: #fff; 
-  }
-  
-  .boton {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #00aaff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
-  
-  .boton:hover {
-    background-color: #21b779;
-  }
-  .parrafo {
-    font-size: 32px;
-    line-height: 1.5;
-    color: #044727;
-    margin-top: 10px;
-    
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
+.boton:hover {
+  background-color: #21b779;
+}
 
-  th {
-    background-color: #007bff;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px;
-    text-align: left;
-  }
-  
+.parrafo {
+  font-size: 18px;
+  text-align: center;
+  color: #044727; 
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-  tr:nth-child(odd) {
-    background-color: #f5f5f5;
-  }
-  
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
